@@ -25,7 +25,7 @@ header {
   color: #fff;
   height: 100vh;
   background: linear-gradient(180deg, #333333ab, #00000036),
-    url("/resources/images/hero.jpg");
+    url("resources/images/hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
