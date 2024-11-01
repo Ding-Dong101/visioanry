@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/signup.css" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="main_form_container">
+        <!-- dialogue to ask user whether to sign up or login -->
+        <div class="dialogue">
+          <button type="button" id="login">Login</button>
+          <button type="button" id="signup">Signup</button>
+        </div>
+        <!-- first form on the left of the page -->
+        <form action="#" class="form_signup">
+          <h2>Sign up</h2>
+          <input type="text" name="username" placeholder="Username" />
+          <input type="password" name="password" placeholder="Password" />
+          <input
+            type="password"
+            name="confirm_password"
+            placeholder="Confirm Password"
+          />
+          <input type="button" value="Subimt" />
+          <p>Don't have an account yet?</p>
+          <a href="#" class="linkbtn_login">Login</a>
+          <div class="round_to_expand"></div>
+        </form>
+
+        <!-- second form on the right side of the page -->
+        <form action="#" class="form_login">
+          <h2>Login</h2>
+          <input type="text" name="username" placeholder="Username" />
+          <input type="password" name="password" placeholder="Password" />
+          <input
+            type="password"
+            name="confirm_password"
+            placeholder="Confirm Password"
+          />
+          <input type="button" value="Subimt" />
+          <p>Don't have an account yet?</p>
+          <a href="#" class="linkbtn_signup">Sign up</a>
+          <div class="round_to_expand"></div>
+        </form>
+      </div>
+    </div>
+    <script src="signup.js"></script>
+  </body>
+</html>
