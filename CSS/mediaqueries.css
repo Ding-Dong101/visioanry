@@ -1,15 +1,35 @@
-@media (max-width: 100rem) {
+@media (max-width: 1200px) {
   header .top {
     justify-content: space-between;
-    padding: 0.5rem;
-  }
-  header nav {
-    display: none;
+    padding: 0 0.5rem;
   }
 
-  footer .escape {
-    width: 50rem;
+  @media (max-width: 900px) {
+    header nav {
+      display: none;
+    }
+    .coloured {
+      display: flex;
+      flex-direction: column;
+      padding: 2.4rem 3.2rem;
+    }
+    .grid__item {
+      width: 7.5rem;
+      height: 2.5rem;
+      font-size: 1.1rem;
+    }
+    .subvids img {
+      width: 5rem;
+    }
+    .subvids {
+      /* width: 40%; */
+      justify-content: center;
+    }
+    /* .gallery_big_image {
+      display: none; 
+    } */
+    .vids {
+      column-span: 1/3;
+    }
   }
-}
-@media (max-width: 90rem){
 }
