@@ -252,9 +252,10 @@ main {
 
   .vids {
     .subvids {
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
-      grid-template-rows: repeat(3, 1fr);
+      display: flex;
+      flex-wrap:wrap;
+     /* grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(3, 1fr);*/
       place-items: center;
       place-content: center;
       flex-wrap: wrap;
